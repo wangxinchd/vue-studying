@@ -22,7 +22,6 @@
     let age = ref(25);
     let tel = '13812345678';
 
-
     function changeName() {
         name.value = "李四"
     }

@@ -1,6 +1,7 @@
 <template>
     <div class="person">
         <h2>一辆{{ car.brand }}车，价值{{ car.price }}万</h2>
+        <button @click="changeBrand">修改汽车品牌</button>
         <button @click="changePrice">修改汽车价格</button>
         <br>
         <ul>
@@ -29,7 +30,6 @@
         { id: 'game4', name: '英雄联盟' },  
     ]);
 
-
     function changeBrand() {
         car.value.brand = '奔驰';
     }
@@ -40,7 +40,6 @@
     function changeFirstGameName() {
         games.value[0].name = '王者荣耀777';
     }
-
 </script>
 
 

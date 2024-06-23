@@ -40,7 +40,6 @@
 </script>
 
 
-
 <style scoped>
 .person {
     background-color: #3cce17;
